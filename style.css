@@ -1,0 +1,367 @@
+/*header*/
+
+/* header nav:first-child {
+  margin: 0 auto;
+  min-height: 40px;
+  max-height: 40px;
+  background: white;
+}
+
+header nav:first-child div div {
+  padding: 10px 0;
+}
+
+header nav:nth-child(2) {
+  background: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  margin: 0 auto;
+}
+
+header nav:nth-child(2) a.navbar-brand {
+  padding: 5px 0;
+}
+
+@media all and (max-width: 1200px) {
+  header nav:nth-child(2) {
+    background: #0248ff;
+  }
+} */
+
+/*navigazione desktop*/
+
+#nav-desktop {
+  background: white;
+}
+
+#nav-desktop .promo {
+  padding-top: 15px;
+  font-size: 1.20rem
+}
+
+#nav-desktop .promo li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#nav-desktop .promo a {
+  color: #818da6;
+}
+
+#nav-desktop .promo a:hover, #nav-desktop .navigazione li a {
+  text-decoration: none;
+}
+
+#nav-desktop .promo .promo-pill {
+  background: #00d7d2;
+  border-radius: 3px;
+  padding: 3px;
+  margin-right: 5px
+}
+
+#nav-desktop hr {
+  margin: 0 auto;
+}
+
+#nav-desktop .navigazione {
+  padding: 20px 0;
+}
+
+#nav-desktop .navigazione ul {
+  display: inline-block;
+}
+
+#nav-desktop .navigazione li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#nav-desktop .navigazione li a {
+  color: #010d28;
+  font-weight: bold;
+}
+
+#nav-desktop .navigazione button {
+  margin-top: 6px;
+  color: #0069ff;
+  border: 1px solid #0069ff;
+  background: white;
+  border-radius: 5px;
+  line-height: 30px;
+  padding: 0 20px
+}
+
+#nav-desktop .navigazione button:hover {
+  color: white;
+  background: #0069ff;
+}
+
+/* header .products-popup {
+  display: none;
+}
+
+#navbar .products-label:hover  header~.products-popup {
+  display: block;
+  height: 30vh;
+  background: white;
+}
+ */
+/*navigazione tablet/mobile*/
+
+#nav-mobile {
+  background: #0248ff;
+  padding-top: 20px;
+}
+
+.hamburger{
+  padding-top: 10px;
+
+}
+.hamburger div {
+  width: 25px;
+  height: 5px;
+  background-color: #80a4ff;
+  margin: 4px 0;
+  border-radius: 3px;
+}
+
+/*main*/
+
+/*mast*/
+
+#mast {
+  background: #0248ff url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  min-height: 700px;
+}
+
+@media all and (max-width: 1200px) {
+  #mast {
+    background: #0248ff
+  }
+}
+
+/*prima colonna*/
+
+#mast {
+  padding: 15% 0;
+}
+
+#mast .mast-title {
+  color: white;
+  font-size: 3rem;
+  margin-right: 5%;
+}
+
+/*seconda colonna*/
+
+#mast .mast-input {
+  background: white;
+  margin: auto;
+  vertical-align: middle;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  padding: 50px 10px;
+}
+
+#mast .mast-input .input-group {
+  width: 90%;
+}
+
+#mast .mast-input button {
+  width: 100%;
+}
+
+#mast .mast-input .input-group * {
+  margin: 10px auto;
+}
+
+/*partners*/
+
+#partners {
+  background: #f3f5f9;
+  padding: 100px 0;
+}
+
+#partners .hidden-md img {
+  height: 150px;
+}
+
+#partners .hidden-xs div {
+  display: inline-block;
+  width: calc(100% / 7);
+}
+
+#partners .hidden-xs img {
+  max-width: 100%;
+  height: 100px;
+}
+
+/*features*/
+
+/*adatto dimensioni container*/
+#features{
+  padding: 10% 0;
+  font-size: 1.5rem;
+}
+
+#features h2{
+  color: #031b4e
+}
+
+#features .features-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 7% 0;
+}
+
+#features .features-container .features-selection div {
+  border-left: 2px solid #818da6;
+  padding: 5px;
+  color: #818da6;
+  font-weight: bold;
+}
+
+#features .features-selection div:hover{
+  color: #031b4e;
+  border-left: 2px solid  #031b4e
+}
+
+#features .feature-box {
+  padding: 0px 30px 50px 0px;
+  ;
+}
+
+/*slider*/
+
+#slider {
+  background: #f3f5f9;
+  padding: 10% 0;
+  
+}
+
+#slider .slider-title{
+  color: #031b4e;
+  font-size: 2rem
+}
+
+#slider .slider-subtitle{
+  font-size: 2rem;
+  color: #4b5c81;
+}
+
+#slider .slider-description{
+  font-size: 1.3rem;
+  color: #627293
+}
+#slider img{
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+/*Features-2*/
+#features-2{
+  padding: 10% 0;
+}
+
+/*regions*/
+
+#regions {
+  background: #031b4e;
+  color: white;
+  padding: 10% 0;
+}
+
+#regions .table tr:first-child td {
+  border-top: none #9aa3b8;
+  border-collapse: collapse;
+}
+
+#regions .region-location{
+  color:#9aa3b8;
+}
+
+#regions .region-link a{
+  color: #00d7d2
+}
+
+#regions .region-link a:hover{
+  text-decoration: none;
+  color: #0248ff;
+}
+/*endorsements*/
+
+#endorsements {
+  background: #f3f5f9;
+  padding: 10% 0;
+}
+
+#endorsements .quote-box {
+  background: white;
+  padding: 5% 30px;
+  width: 100%;
+  max-width: 700px;
+  margin: 5% auto;
+}
+
+/*call to action*/
+
+#call-to-action {
+  background: #0248ff url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  height: 200px;
+  text-align: center;
+}
+
+#call-to-action h2 {
+  margin-top: 0;
+  color: white;
+  padding-top: 60px;
+}
+
+#call-to-action button {
+  height: 40px;
+}
+
+/*footer*/
+
+footer {
+  background: #010d28;
+  color: #818da6;
+  padding: 50px 0;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer a span {
+  font-size: 20px;
+  margin: 20px 5px;
+}
+
+footer .section {
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  padding: 5px 0;
+}

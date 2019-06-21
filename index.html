@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>DigitalOcean</title>
+</head>
+
+<body>
+  <!-- Header-->
+  <header>
+    <!-- 
+    
+    <nav class="navbar navbar-default visible-lg-block visible-md-block">
+      <div class="container">
+        <div>
+          <span class="navbar-right">Lorem</span>
+          <span class="navbar-left">Lorem</span>
+        </div>
+      </div>
+    </nav>
+    
+    <nav class="navbar navbar-default ">
+      <div class="container">
+        
+        <div class="navbar-header hidden-lg">
+          <button type="button" class="navbar-toggle " aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hidden-lg" href="#"><img src="img/logo-mobile.png" alt=""></a>
+
+        </div>
+
+       
+        <div class="collapse navbar-collapse ">
+          <a class="navbar-brand visible-lg-block" href="#"><img src="img/logo-desktop.png" alt=""></a>
+
+        </div>
+      </div>
+    </nav> -->
+
+    <!--navbar desktop-->
+    <nav id="nav-desktop" class="visible-lg-block navbar-fixed-top">
+
+      <div class="container">
+        <div class="promo">
+          <span class="promo-pill">NEW</span>
+          <span class="promo-link">
+            <a href="#"> DigitalOcean Kubernetes is now Generally Available. Learn more</a>
+          </span>
+          <ul class="pull-right">
+            <li>
+              <a href="#">Docs</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">Sales</a>
+            </li>
+            <li>
+              <a href="#">Log in</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="navigazione">
+          <img src="img/logo-desktop.png" alt="">
+          <ul>
+            <li class="products-label">
+              <a href="#">Products v</a>
+            </li>
+            <li>
+              <a href="#">Marketplace</a>
+            </li>
+            <li>
+              <a href="#">Customers</a>
+            </li>
+            <li>
+              <a href="#">Partners</a>
+            </li>
+            <li>
+              <a href="#">Community v</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+          </ul>
+          <button class="nav-sign-up pull-right">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+
+    <!--popup prodotti-->
+    <!--   <div class="products-popup"></div>
+      <div class="container">
+        Lorem!
+      </div>
+    </div>
+     -->
+    <!--navabar mobile-->
+    <nav id="nav-mobile" class="hidden-lg">
+      <div class="container-fluid">
+        <div class="navigazione-mobile">
+          <img src="img/logo-mobile.png" alt="">
+          <div class="pull-right">
+            <div class="hamburger">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!--Main-->
+  <main>
+    <!--mast-->
+    <section id="mast">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="mast-title">
+              <h1>Welcome to the <br>
+                developer cloud </h1>
+              <p>We make it simple to launch in the cloud and scale up as you grow—whether you’re running one virtual
+                machine or ten thousand. </p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6">
+            <div class="mast-input">
+              <h2 class="text-center">Deploy in seconds</h2>
+              <div class="input-group center-block">
+                <input class="form-control" type="text" placeholder="Email Address">
+                <input class="form-control" type="text" placeholder="Password">
+                <button class="btn btn-success center-block">Create your account</button>
+                <button class="btn btn-default center-block">Sign in with google</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--partners-->
+    <section id="partners">
+      <div class="container-fluid">
+        <h4 class="text-center"> Innovative businesses trust DigitalOcean </h4>
+
+        <!--questo blocco scompare in modalità desktop-->
+        <div class="row">
+
+          <div class="col-xs-6 hidden-md hidden-lg">
+            <div><img class="img-responsive center-block" src="img/docker.png" alt="partner"></div>
+            <div><img class="img-responsive center-block" src="img/gitlab-166e2067.png" alt="partner"></div>
+            <div><img class="img-responsive center-block" src="img/slack-e20293da.png" alt="partner"></div>
+          </div>
+          <div class="col-xs-6 hidden-md hidden-lg">
+            <div><img class="img-responsive center-block" src="img/hashicorp-4431df79.png" alt="partner"></div>
+            <div><img class="img-responsive center-block" src="img/wework-be6eab32.png" alt="partner"></div>
+            <div><img class="img-responsive center-block" src="img/splunk-06b17d75.png" alt="partner"></div>
+          </div>
+
+        </div>
+
+        <!--questo blocco scompare in modalità tablet-->
+        <div class="partner-logos text-center hidden-xs hidden-sm ">
+          <div><img src="img/docker.png" alt="partner"></div>
+          <div><img src="img/gitlab-166e2067.png" alt="partner"></div>
+          <div><img src="img/slack-e20293da.png" alt="partner"></div>
+          <div><img src="img/hashicorp-4431df79.png" alt="partner"></div>
+          <div><img src="img/wework-be6eab32.png" alt="partner"></div>
+          <div><img src="img/splunk-06b17d75.png" alt="partner"></div>
+        </div>
+        <p class="text-center">
+          <a href="#partners">View customer stories</a>
+        </p>
+      </div>
+    </section>
+
+    <!--features-->
+    <section id="features">
+      <div class="container">
+        <div class="text-center">
+          <h2> Deploy and scale seamlessly </h2>
+          <p>
+            Our optimized configuration process saves your team time when running and scaling distributed applications,
+            AI & machine learning workloads, hosted services, client websites, or CI/CD environments.
+          </p>
+        </div>
+
+        <div class="features-container">
+
+          <div class="col-xs-12 col-sm-4">
+            <div class="features-selection">
+              <div>
+                <p>Deploy</p>
+              </div>
+              <div>
+                <p>Scale</p>
+              </div>
+              <div>
+                <p>Secure</p>
+              </div>
+              <div>
+                <p>Store</p>
+              </div>
+              <div>
+                <p>Monitor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4">
+            <div class="feature-box">
+              <img src="img/kubernetes.png" alt="kubernetes">
+              <p>Kubernetes in minutes</p>
+              Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your
+              worker nodes.
+            </div>
+            <div class="feature-box">
+              <img src="img/kubernetes.png" alt="kubernetes">
+              <p>Kubernetes in minutes</p>
+              Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your
+              worker nodes.
+            </div>
+
+          </div>
+          <div class="col-xs-6 col-sm-4">
+            <div class="feature-box">
+              <img src="img/kubernetes.png" alt="kubernetes">
+              <p>Kubernetes in minutes</p>
+              Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your
+              worker nodes.
+            </div>
+            <div class="feature-box">
+              <img src="img/kubernetes.png" alt="kubernetes">
+              <p>Kubernetes in minutes</p>
+              Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your
+              worker nodes.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--slider-->
+    <section id="slider">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="slider-title"> Designed for developers </h1>
+            <p class="slider-subtitle">
+              Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.
+            </p>
+            <img class="img-responsive center-block" src="img/slider.jpg" alt="slider">
+            <p class="slider-description">
+              Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized
+              applications.
+            </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!--features 2-->
+    <section id="features-2">
+      <div class="container">
+        <h2 class="text-center"> Built for business </h2>
+        <div class="row">
+          <div class="col-xs-6 col-sm-4">
+
+            <div class="features-2-box">
+              <img src="img/shield.png" alt="security">
+              <p>
+                Reliable Platform
+              </p>
+              <p>
+                More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99%
+                uptime SLA for all services.
+              </p>
+              <a href="#features-2">Security</a>
+            </div>
+
+          </div>
+          <div class="col-xs-6 col-sm-4">
+
+            <div class="features-2-box">
+              <img src="img/shield.png" alt="security">
+              <p>
+                Reliable Platform
+              </p>
+              <p>
+                More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99%
+                uptime SLA for all services.
+              </p>
+              <a href="#features-2">Security</a>
+            </div>
+
+          </div>
+          <!--centrato in modalità smartphone-->
+          <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0">
+
+            <div class="features-2-box">
+              <img src="img/shield.png" alt="security">
+              <p>
+                Reliable Platform
+              </p>
+              <p>
+                More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99%
+                uptime SLA for all services.
+              </p>
+              <a href="#features-2">Security</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--regions-->
+    <section id="regions">
+      <div class="container">
+        <h2 class="text-center">Service your customers around the world from 12 regions. </h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <table class="table">
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+            </table>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <table class="table">
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+              <tr>
+                <td class="region-name">AMS2</td>
+                <td class="region-location">Amsterdam, Netherlands </td>
+                <td class="region-link"><a href="#regions">Test speed </a> </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--endorsements-->
+    <section id="endorsements">
+      <div class="container">
+        <h2 class="text-center"> Development teams love DigitalOcean </h2>
+        <div class="quote-box text-center ">
+          <img src="img/rockerbox-logo.png" alt="rockerbox-logo">
+          <h3>We have been able to make scaling the technical infrastructure of our business cost effective and
+            efficient.
+          </h3>
+          <h5>Rick O'Toole</h5>
+          <h6>Co-founder and CTO</h6>
+          <a href="#">Read story</a>
+        </div>
+      </div>
+    </section>
+
+    <!--call to action-->
+    <section id="call-to-action">
+      <div>
+        <h2>Get started now. </h2>
+        <a href="#"><button>Create your account</button></a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!--footer-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <!--logo e icone social-->
+        <div class="col-xs-12 col-md-4">
+          <img src="img/logo-footer.png" alt="logo">
+          <p> © 2019 DigitalOcean, LLC. All rights reserved. </p>
+          <a href=""><span class="glyphicon glyphicon-envelope"></span></a>
+          <a href=""><span class="glyphicon glyphicon-envelope"></span></a>
+          <a href=""><span class="glyphicon glyphicon-envelope"></span></a>
+          <a href=""><span class="glyphicon glyphicon-envelope"></span></a>
+          <a href=""><span class="glyphicon glyphicon-envelope"></span></a>
+          <a href=""><span class="glyphicon glyphicon-envelope"></span></a>
+        </div>
+
+        <!--links-->
+        <div class="col-xs-6 col-md-2">
+          <p class="section">Company</p>
+          <ul>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-md-2">
+          <p class="section">Products</p>
+          <ul>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-md-2">
+          <p class="section">Community </p>
+          <ul>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-md-2">
+          <p class="section">Contact</p>
+          <ul>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
