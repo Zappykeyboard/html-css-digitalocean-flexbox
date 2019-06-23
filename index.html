@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  <!--  <link rel="stylesheet" href="bootstrap.min.css"> -->
   <link rel="stylesheet" href="style.css">
   <title>DigitalOcean</title>
 </head>
@@ -14,49 +16,19 @@
 <body>
   <!-- Header-->
   <header>
-    <!-- 
-    
-    <nav class="navbar navbar-default visible-lg-block visible-md-block">
-      <div class="container">
-        <div>
-          <span class="navbar-right">Lorem</span>
-          <span class="navbar-left">Lorem</span>
-        </div>
-      </div>
-    </nav>
-    
-    <nav class="navbar navbar-default ">
-      <div class="container">
-        
-        <div class="navbar-header hidden-lg">
-          <button type="button" class="navbar-toggle " aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand hidden-lg" href="#"><img src="img/logo-mobile.png" alt=""></a>
-
-        </div>
-
-       
-        <div class="collapse navbar-collapse ">
-          <a class="navbar-brand visible-lg-block" href="#"><img src="img/logo-desktop.png" alt=""></a>
-
-        </div>
-      </div>
-    </nav> -->
 
     <!--navbar desktop-->
     <nav id="nav-desktop" class="visible-lg-block navbar-fixed-top">
 
       <div class="container">
         <div class="promo">
-          <span class="promo-pill">NEW</span>
-          <span class="promo-link">
-            <a href="#"> DigitalOcean Kubernetes is now Generally Available. Learn more</a>
-          </span>
-          <ul class="pull-right">
+          <div>
+            <span class="promo-pill">NEW</span>
+            <span class="promo-link">
+              <a href="#"> DigitalOcean Kubernetes is now Generally Available. Learn more</a>
+            </span>
+          </div>
+          <ul>
             <li>
               <a href="#">Docs</a>
             </li>
@@ -72,53 +44,48 @@
           </ul>
         </div>
       </div>
+
       <hr>
+
       <div class="container">
         <div class="navigazione">
-          <img src="img/logo-desktop.png" alt="">
-          <ul>
-            <li class="products-label">
-              <a href="#">Products v</a>
-            </li>
-            <li>
-              <a href="#">Marketplace</a>
-            </li>
-            <li>
-              <a href="#">Customers</a>
-            </li>
-            <li>
-              <a href="#">Partners</a>
-            </li>
-            <li>
-              <a href="#">Community v</a>
-            </li>
-            <li>
-              <a href="#">Pricing</a>
-            </li>
-          </ul>
-          <button class="nav-sign-up pull-right">Sign Up</button>
+          <div class="flex-container">
+            <img src="img/logo-desktop.png" alt="">
+            <ul>
+              <li class="products-label">
+                <a href="#">Products v</a>
+              </li>
+              <li>
+                <a href="#">Marketplace</a>
+              </li>
+              <li>
+                <a href="#">Customers</a>
+              </li>
+              <li>
+                <a href="#">Partners</a>
+              </li>
+              <li>
+                <a href="#">Community v</a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+          <button class="nav-sign-up">Sign Up</button>
         </div>
       </div>
     </nav>
 
-    <!--popup prodotti-->
-    <!--   <div class="products-popup"></div>
-      <div class="container">
-        Lorem!
-      </div>
-    </div>
-     -->
     <!--navabar mobile-->
     <nav id="nav-mobile" class="hidden-lg">
       <div class="container-fluid">
         <div class="navigazione-mobile">
           <img src="img/logo-mobile.png" alt="">
-          <div class="pull-right">
-            <div class="hamburger">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
+          <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
           </div>
         </div>
       </div>
@@ -131,25 +98,23 @@
     <!--mast-->
     <section id="mast">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <div class="mast-title">
-              <h1>Welcome to the <br>
-                developer cloud </h1>
-              <p>We make it simple to launch in the cloud and scale up as you grow—whether you’re running one virtual
-                machine or ten thousand. </p>
-            </div>
+        <div class="flex-container">
+
+          <div class="mast-title">
+            <h1>Welcome to the <br>
+              developer cloud </h1>
+            <p>We make it simple to launch in the cloud and scale up as you grow—whether you’re running one virtual
+              machine or ten thousand. </p>
           </div>
 
-          <div class="col-xs-12 col-sm-6">
-            <div class="mast-input">
-              <h2 class="text-center">Deploy in seconds</h2>
-              <div class="input-group center-block">
-                <input class="form-control" type="text" placeholder="Email Address">
-                <input class="form-control" type="text" placeholder="Password">
-                <button class="btn btn-success center-block">Create your account</button>
-                <button class="btn btn-default center-block">Sign in with google</button>
-              </div>
+
+          <div class="mast-input">
+            <h2 class="text-center">Deploy in seconds</h2>
+            <div class="input-group center-block">
+              <input class="form-control" type="text" placeholder="Email Address">
+              <input class="form-control" type="text" placeholder="Password">
+              <button class="btn btn-success center-block">Create your account</button>
+              <button class="btn btn-default center-block">Sign in with google</button>
             </div>
           </div>
 
@@ -162,8 +127,25 @@
       <div class="container-fluid">
         <h4 class="text-center"> Innovative businesses trust DigitalOcean </h4>
 
+        <div class="flex-container">
+          <div class="flex-logos">
+            <img src="img/docker.png" alt="partner">
+            <img src="img/gitlab-166e2067.png" alt="partner">
+          </div>
+          <div class="flex-logos">
+            <img src="img/slack-e20293da.png" alt="partner">
+            <img src="img/hashicorp-4431df79.png" alt="partner">
+          </div>
+          <div class="flex-logos">
+            <img src="img/wework-be6eab32.png" alt="partner">
+            <img src="img/splunk-06b17d75.png" alt="partner">
+          </div>
+        </div>
+
+
+
         <!--questo blocco scompare in modalità desktop-->
-        <div class="row">
+        <!-- <div class="row">
 
           <div class="col-xs-6 hidden-md hidden-lg">
             <div><img class="img-responsive center-block" src="img/docker.png" alt="partner"></div>
@@ -176,17 +158,17 @@
             <div><img class="img-responsive center-block" src="img/splunk-06b17d75.png" alt="partner"></div>
           </div>
 
-        </div>
+        </div> -->
 
         <!--questo blocco scompare in modalità tablet-->
-        <div class="partner-logos text-center hidden-xs hidden-sm ">
+        <!-- <div class="partner-logos text-center hidden-xs hidden-sm ">
           <div><img src="img/docker.png" alt="partner"></div>
           <div><img src="img/gitlab-166e2067.png" alt="partner"></div>
           <div><img src="img/slack-e20293da.png" alt="partner"></div>
           <div><img src="img/hashicorp-4431df79.png" alt="partner"></div>
           <div><img src="img/wework-be6eab32.png" alt="partner"></div>
           <div><img src="img/splunk-06b17d75.png" alt="partner"></div>
-        </div>
+        </div> -->
         <p class="text-center">
           <a href="#partners">View customer stories</a>
         </p>
