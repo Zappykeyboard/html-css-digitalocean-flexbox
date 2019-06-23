@@ -116,7 +116,7 @@
 #mast {
   background: #0248ff url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg) no-repeat;
   background-size: cover;
-  min-height: 700px;
+  min-height: 800px;
 }
 
 @media all and (max-width: 1200px) {
@@ -146,29 +146,44 @@
 #mast .mast-title {
   color: white;
   font-size: 3rem;
-  max-width: 400px;
+  max-width: 45%;
+}
+#mast .mast-title h1{
+  font-size: 4rem;
 }
 
 /*seconda colonna*/
 
 #mast .mast-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: white;
   border-radius: 5px;
-  max-width: 400px;
+  min-height: 400px;
+  width: 35%;
   padding: 50px 10px;
 }
 
-#mast .mast-input .input-group {
+#mast .mast-input .flex {
   width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
 }
 
-#mast .mast-input button {
-  width: 100%;
+#mast .mast-input button,
+#mast .mast-input input{
+  height: 40px;
+  margin: 5px;
+
 }
 
-#mast .mast-input .input-group * {
+/* #mast .mast-input .input-group * {
   margin: 10px auto;
-}
+} */
 
 /*partners*/
 
